@@ -1,0 +1,12 @@
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<test name="parameterdemo">
+	<parameter name="email" value="vishnuchoksi@gmail.com"/>
+		<classes>
+			<class name="first.parameterdemo" />
+		</classes>
+	</test> <!-- Test -->
+	
+</suite> 
