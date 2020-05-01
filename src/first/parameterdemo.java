@@ -18,5 +18,9 @@ public class parameterdemo {
 		driver.findElement(By.name("email")).sendKeys(email);
 		System.out.println("success");
 	}
+	@Test
+	public void added() {
+		System.out.println("wonderful");
+	}
 }
 
